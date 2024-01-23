@@ -1,0 +1,92 @@
+[
+    {
+      "title": "Resident Evil 4",
+      "description": "descripcion de Resident Evil 4",
+      "price": 200,
+      "thumbnail": "Sin imagen",
+      "code": "abc123",
+      "stock": 25,
+      "id": 1
+    },
+    {
+      "title": "Resident Evil 2",
+      "description": "descripcion de Resident Evil 2",
+      "price": 250,
+      "thumbnail": "Sin imagen",
+      "code": "abc124",
+      "stock": 25,
+      "id": 2
+    },
+    {
+      "title": "GTA V",
+      "description": "descripcion de GTA V",
+      "price": 100,
+      "thumbnail": "Sin imagen",
+      "code": "abc125",
+      "stock": 30,
+      "id": 3
+    },
+    {
+      "title": "GTA IV",
+      "description": "descripcion de GTA IV",
+      "price": 50,
+      "thumbnail": "Sin imagen",
+      "code": "abc126",
+      "stock": 35,
+      "id": 4
+    },
+    {
+      "title": "Rust",
+      "description": "descripcion de Rust",
+      "price": 60,
+      "thumbnail": "Sin imagen",
+      "code": "abc126",
+      "stock": 15,
+      "id": 5
+    },
+    {
+      "title": "GOW",
+      "description": "descripcion de GOW",
+      "price": 60,
+      "thumbnail": "Sin imagen",
+      "code": "abc127",
+      "stock": 20,
+      "id": 6
+    },
+    {
+      "title": "GOW 2",
+      "description": "descripcion de GOW 2",
+      "price": 20,
+      "thumbnail": "Sin imagen",
+      "code": "abc128",
+      "stock": 60,
+      "id": 7
+    },
+    {
+      "title": "GOW 3",
+      "description": "descripcion de GOW 3",
+      "price": 50,
+      "thumbnail": "Sin imagen",
+      "code": "abc129",
+      "stock": 30,
+      "id": 8
+    },
+    {
+      "title": "Call of Duty Modern Warfare",
+      "description": "descripcion de Call of Duty Modern Warfare",
+      "price": 100,
+      "thumbnail": "Sin imagen",
+      "code": "abc130",
+      "stock": 30,
+      "id": 9
+    },
+    {
+      "title": "Need For Speed Most Wanted",
+      "description": "descripcion de Need For Speed Most Wanted",
+      "price": 15,
+      "thumbnail": "Sin imagen",
+      "code": "abc130",
+      "stock": 10,
+      "id": 10
+    }
+  ]
