@@ -12,14 +12,21 @@ app.get("/products", async (req, res)=>{
     await productManager.loadProducts();
 
     const limit = req.query.limit;
-    let products = productManager.getProducts();
+    const products = productManager.getProducts();
   
     if (limit) {
       products = products.slice(0, parseInt(limit, 10));
     }  
 
     res.json({ products });
-    
+})
+
+app.get("/products/:pid", async(req,res)=>{
+  await productManager.loadProducts();
+  const {pid} = req.params
+  const products = productManager.getProducts();
+  const filteredProduct = products.filter(p => p.id == pid)
+  res.send({filteredProduct})
 })
 
 export default app
