@@ -32,17 +32,8 @@ class ProductManager {
   }
 
   async getProductById(id) {
-    try {
       const foundProduct = this.products.find((product) => product.id === id);
-
-      if (foundProduct) {
-        return foundProduct;
-      } else {
-        throw new Error("Producto no encontrado");
-      }
-    } catch (error) {
-      throw error;
-    }
+      return foundProduct;
   }
 
   async updateProduct(id, upFields) {
